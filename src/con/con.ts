@@ -153,13 +153,13 @@ export class Con extends Canvas {
         this._rotCnt++
       }
     } else {
-      // this._oldAng = this._val
-      // if((this._oldAng - this._val) > 300) {
-      //   this._rotCnt++
-      // }
-      // if((this._oldAng - this._val) < -300) {
-      //   this._rotCnt--
-      // }
+      this._oldAng = this._val
+      if((this._oldAng - this._val) > 300) {
+        this._rotCnt++
+      }
+      if((this._oldAng - this._val) < -300) {
+        this._rotCnt--
+      }
     }
 
     if(this._mesh != undefined) {
