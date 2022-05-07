@@ -23,7 +23,13 @@ canvas {
 }
 
 .l-debug {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 1px;
+    padding: 5px
 }
 
 .l-btn {
